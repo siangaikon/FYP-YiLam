@@ -1,0 +1,74 @@
+# Project name.
+name: autosecurechat
+
+# Short description of the application.
+description: AI-Powered Secure Messaging with Real-Time Threat Detection and Task Automation
+
+# Prevents the package from being published to pub.dev.
+publish_to: 'none'
+
+# Application version and build number.
+version: 1.0.0+1
+
+# Specifies the supported Dart SDK version.
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# Packages required by the application.
+dependencies:
+  # Flutter framework.
+  flutter:
+    sdk: flutter
+
+  # Firebase services.
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.0
+  cloud_firestore: ^5.6.0
+  firebase_remote_config: ^5.4.0
+
+  # Networking for AI API calls and EmailJS.
+  http: ^1.2.0
+
+  # End-to-end encryption and hashing.
+  encrypt: ^5.0.3
+  crypto: ^3.0.3
+
+  # Utility package for generating unique IDs.
+  uuid: ^4.3.3
+
+# Packages used during development and testing.
+dev_dependencies:
+  # Flutter widget testing framework.
+  flutter_test:
+    sdk: flutter
+
+  # Recommended Flutter lint rules.
+  flutter_lints: ^3.0.0
+
+  # Generates the application launcher icon.
+  flutter_launcher_icons: ^0.14.1
+
+  # Supports integration testing.
+  integration_test:
+    sdk: flutter
+
+# Configuration for generating the application launcher icon.
+flutter_launcher_icons:
+  # Generate the launcher icon for Android.
+  android: true
+
+  # iOS launcher icon is not configured.
+  ios: false
+
+  # Application logo used as the launcher icon.
+  image_path: "assets/logo.png"
+
+# Flutter-specific configuration.
+flutter:
+  # Enables Material Design icons.
+  uses-material-design: true
+
+  # Application assets.
+  assets:
+    # Application logo.
+    - assets/logo.png

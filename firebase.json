@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"fypautochat","appId":"1:255504828226:android:0cd19043f463d89940eadb","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"fypautochat","configurations":{"android":"1:255504828226:android:0cd19043f463d89940eadb","ios":"1:255504828226:ios:985d1d0d2af44ebc40eadb"}}}}}}

@@ -1,0 +1,51 @@
+# Miscellaneous temporary and system files.
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ IDEA and Android Studio project files.
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code configuration files.
+# Uncomment the following line if VS Code settings should not be committed.
+#.vscode/
+
+# Flutter, Dart, and Pub generated files.
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+ /build/
+ /coverage/
+
+# Application symbolication files generated during builds.
+app.*.symbols
+
+# Application obfuscation mapping files.
+app.*.map.json
+
+# Android build artifacts for different build modes.
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Local load, performance, and security test files.
+# These files contain hardcoded test-account credentials
+# and should not be committed to version control.
+integration_test/load_test.dart
+integration_test/perf_test.dart
+integration_test/security_test.dart
